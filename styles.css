@@ -1,0 +1,117 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+#main_fon{
+height: 737px;
+background-image: url(./template.jpg);
+background-repeat: no-repeat;
+}
+
+#page_title{
+	padding-top:41px;
+	padding-left:74px;
+}
+
+.poiret-one-regular {
+	font-family:"Poiret One", sans-serif;
+	font-style:normal;
+	letter-spacing:0.8em;
+	word-spacing:0.25em;
+}
+
+@font-face {
+	font-family: 'Kreadon';
+	src: local('Kreadon.ttf'),
+	url(/Kreadon.ttf.ttf);
+}
+
+#str1{
+	font-family: 'Kreadon';
+	padding-top: 20px;
+	padding-left:145px;
+}
+
+#str2{
+	font-style: 'Kreadon';
+	padding-top:10px;
+	padding-left:155px;
+	word-spacing:0.65em;
+}
+
+#data{
+	font-style:'Kreadon';
+	padding-top:37px;
+	padding-left:105px;
+	float:left;
+}
+
+#code{
+	padding-left:295px;
+	padding-top:37px;
+	font-family:'Kreadon';
+	word-spacing:0.65em;
+}
+
+.podpis1{
+	padding-top:25px;
+	padding-left:55px;
+	font-style:'Kreadon';
+	float:left;
+
+}
+
+.podpis2{
+	font-style:'Kreadon';
+	padding-left:120px;
+	padding-top:50px;
+}
+
+.passfoto{
+	padding-left:35px;
+	padding-top:150px;
+	float:left;
+}
+
+#fam{
+	padding-top:108px;
+	padding-left:250px;
+}
+
+#name{
+	padding-top:37px;
+	padding-left:250px;
+}
+
+#fname{
+	padding-top:10px;
+	padding-left:250px;
+}
+
+#sex{
+	float:left;
+	padding-top:10px;
+	padding-left:30px;
+}
+
+#born{
+	padding-top:10px;
+	padding-left:340px;
+}
+
+#city{
+	padding-left:250px;
+	padding-top:6px;
+	word-spacing:0.7em;
+}
+
+#oblast{
+	padding-left:250px;
+	padding-top:10px;
+}
+
+#translate{
+	padding-top:50px;
+	padding-left:440px;
+}
