@@ -1,0 +1,48 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+#UserEnter{
+  line-height: 50px;
+  position:absolute;
+
+}
+
+nav{
+    border-radius: 10px 10px 10px 10px;
+    background-color: 0.1;
+    background-repeat: repeat-x;
+    font-family: 'Helvetica', sans-serif;
+    line-height: 2em;
+    font-style: normal;
+    color:black;
+    float:left;
+    font-size: 130%;
+    font-weight: bold;
+    margin-top:10px;
+    margin-left: 650px;
+    position:absolute;
+
+  }
+
+  nav ul{
+    list-style-type: none;
+    text-align: center;
+    text-indent: 10px;
+  }
+
+  nav li{
+    margin-left: 30px;
+    margin-right:38px;
+    margin-bottom: 8px;
+  }
+
+  nav li a{
+    text-decoration:none;
+    color: #d9878e;
+  }
+
+  nav li a:hover{
+    color: #e1d7e2;
+  }

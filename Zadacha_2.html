@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Решение алгоритмической задачи 2</title>
+    <link rel ="stylesheet" href = "zadacha_2.css">
+</head>
+
+<body>
+    <p name = "formulation">Можно ли вписать прямоугольник со сторонами a, b в прямоугольник со сторонами c, d? <br> Если да, отправить все на сервер</p>
+
+    <form action = "https://bing.com/search?" id = "UserEnter" name = "UserEnter" target = "_blank">
+        <ul>
+            <li>
+                Для поисковика:
+                <input name = "q" value = "search">
+            </li>
+
+            <li>
+                Формулировка задачи:
+                <br>
+                <textarea cols = "60" rows = "4" id = "task" name = "formulation">Можно ли вписать прямоугольник со сторонами "a", "b" в прямоугольник со сторонами "c", "d"? Если да, отправить все на сервер
+                </textarea></li>
+
+            <li>
+                a:
+                <input id = "a" name = "a" type = "number" value = "3"></li>
+
+            <li>
+                b:
+                <input id = "b" name = "b" type = "number" value = "4"></li>
+
+            <li>
+                c:
+                <input id = "c" name = "c" type = "number" value = "6"></li>
+
+            <li>
+                d:
+                <input id = "d" name = "d" type = "number" value = "8"></li>
+
+            <li>
+                Результат решения задачи: 
+                <input id = "result" name = "result" value = "не определен"></li>
+
+            <li>
+                Действие 1:
+                <input id = "verify" type = "button" value = "Проверить"></li>
+
+            <li>
+                Действие 2:
+                <input id = "send" type = "button" value = "Отправить"></li>
+        </ul>
+    </form>
+
+    <nav>
+		<ul>
+			<li><a href = "./index.html">Паспорт</a></li>
+			<li><a href = "./dom_js.html">Скрин</a></li>
+			<li><a href = "./Zadacha_1.html">Задача 1</a></li>
+			<li><a href = "./Zadacha_2.html">Задача 2</a></li>
+		</ul>
+	</nav>
+
+<script src = "./task2.js"></script>
+</body>
+</html>
