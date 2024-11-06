@@ -5,8 +5,9 @@
 
 #main_fon{
 height: 737px;
-background-image: url(https://github.com/olgagatillo/additional/blob/main/pictures/template.jpg?raw=true);
+background-image: url(./template.jpg);
 background-repeat: no-repeat;
+position:absolute;
 }
 
 #page_title{
@@ -114,4 +115,43 @@ background-repeat: no-repeat;
 #translate{
 	padding-top:50px;
 	padding-left:440px;
+	float:left;
 }
+
+
+	nav{
+        border-radius: 10px 10px 10px 10px;
+        background-color: 0.1;
+        background-repeat: repeat-x;
+        font-family: 'Helvetica', sans-serif;
+        line-height: 2em;
+        font-style: normal;
+        color:black;
+        float:left;
+        font-size: 130%;
+        font-weight: bold;
+        margin-top:50px;
+        margin-left: 500px;
+
+      }
+
+      nav ul{
+        list-style-type: none;
+        text-align: center;
+        text-indent: 10px;
+      }
+
+      nav li{
+        margin-left: 30px;
+        margin-right:38px;
+        margin-bottom: 8px;
+      }
+
+      nav li a{
+        text-decoration:none;
+        color: #d9878e;
+      }
+
+      nav li a:hover{
+        color: #e1d7e2;
+      }
