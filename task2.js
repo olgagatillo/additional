@@ -38,7 +38,7 @@ function verify() {
         check = false;
     }
     
-    if (low1 > 0 || low2 > 0 || high1 > 0 || high2 > 0) {
+    if (low1 < 0 || low2 < 0 || high1 < 0 || high2 < 0) {
         result = "Прямоугольник не может быть вписан"
         check = "false";
     }
