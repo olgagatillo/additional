@@ -29,12 +29,13 @@ function verify() {
     }
 
     if (low1 <= low2 && high1 <= high2) {
-        if (low1 < 0 || low2 < 0 || high1 < 0 || high2 < 0) {
-            result = "Один из углов отрицателен, прямоугольник не может быть вписан";
-        } 
-        else {
+        if (low1 > 0 && low2 > 0 && high1 > 0 && high2 > 0) {
             result = "Прямоугольник может быть вписан";
             check = true;
+        } 
+        else {
+            result = "Один из углов отрицателен, прямоугольник не может быть вписан";
+            check = false;
         }
     } 
     else {
