@@ -28,7 +28,7 @@ function verify() {
         high2 = c;
     }
 
-    if (low1 <= low2 && high1 <= high2 && low1 > 0 || low2 > 0 || high1 > 0 || high2 > 0) {
+    if (low1 <= low2 && high1 <= high2) {
         result = "Прямоугольник может быть вписан"
         check = true;
     }
@@ -37,7 +37,12 @@ function verify() {
         result = "Прямоугольник не может быть вписан"
         check = false;
     }
-    document.getElementById("result").value = result;
+    
+    if (low1 > 0 || low2 > 0 || high1 > 0 || high2 > 0) {
+        result = "Прямоугольник не может быть вписан"
+        check = "false";
+    }
+     document.getElementById("result").value = result; 
 }
 
 
