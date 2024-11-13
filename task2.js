@@ -6,11 +6,6 @@ function verify() {
     let d = parseFloat(elementD.value);
     console.log(a, b, c, d)
 
-    if (a <= 0 || b <= 0 || c <= 0 || d <= 0) {
-        result = "недопустимые значения";
-        check = false;
-    }
-
     let low1, high1 
     if (a < b) {
         low1 = a;
